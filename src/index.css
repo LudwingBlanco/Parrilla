@@ -1,0 +1,368 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+    overflow-x: hidden;
+    overflow-x: clip;
+  }
+
+  body {
+    @apply bg-carbon text-papel-ivory font-cuerpo antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    overflow-x: clip;
+  }
+
+  ::selection {
+    background: #c2401d;
+    color: #faebd7;
+  }
+
+  :focus-visible {
+    outline: 2px solid #c2401d;
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
+
+@layer components {
+  /* ---------- Botones: pastillas dinámicas contemporáneas ---------- */
+  .pildora {
+    @apply relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full border border-papel-ivory/80 bg-transparent px-7 py-3 font-cuerpo text-[0.8rem] font-bold uppercase tracking-brand text-papel-ivory no-underline transition-all duration-300 hover:border-fuego hover:bg-fuego hover:text-papel-ivory hover:shadow-[0_0_24px_rgba(194,64,29,0.45)] active:scale-95;
+  }
+
+  .pildora-tinta {
+    @apply relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full border border-tinta/80 bg-transparent px-7 py-3 font-cuerpo text-[0.8rem] font-bold uppercase tracking-brand text-tinta no-underline transition-all duration-300 hover:border-fuego hover:bg-fuego hover:text-papel-ivory hover:shadow-[0_0_24px_rgba(194,64,29,0.35)] active:scale-95;
+  }
+
+  .pildora-llena {
+    @apply relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full border border-fuego bg-fuego px-7 py-3 font-cuerpo text-[0.8rem] font-bold uppercase tracking-brand text-papel-ivory no-underline shadow-[0_4px_16px_rgba(194,64,29,0.35)] transition-all duration-300 hover:bg-fuego-deep hover:shadow-[0_0_28px_rgba(194,64,29,0.6)] hover:scale-[1.02] active:scale-95;
+  }
+
+  /* Títulos gastronómicos con Bebas Neue */
+  .titulo-seccion {
+    @apply font-display uppercase leading-[0.92] tracking-[0.025em];
+  }
+
+  /* Subtítulos editoriales en Syne */
+  .subtitulo-editorial {
+    @apply font-heading uppercase tracking-[0.14em];
+  }
+
+  /* Tipografía fantasma decorativa detrás de fichas */
+  .fantasma {
+    @apply pointer-events-none absolute left-0 top-1/2 -translate-y-1/2 whitespace-nowrap font-display uppercase leading-none select-none;
+    font-size: clamp(4.5rem, 9vw, 8.5rem);
+    letter-spacing: 0.02em;
+  }
+
+  /* Tarjeta interactiva gastronómica con elevación y halo de brasa */
+  .tarjeta-gastronomica {
+    @apply transition-all duration-300 ease-out;
+  }
+  .tarjeta-gastronomica:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 16px 36px -10px rgba(194, 64, 29, 0.22);
+  }
+
+  /* Fila de carta interactiva con botón de pedido rápido */
+  .fila-carta {
+    @apply relative rounded-lg px-3 py-3 transition-all duration-200;
+  }
+  .fila-carta:hover {
+    @apply bg-carbon/5;
+  }
+
+  /* Reveal de scroll: manejado por <Aparecer/> */
+  .aparece {
+    opacity: 0;
+    transform: translateY(28px);
+    transition:
+      opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+      transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .aparece-izq { transform: translateX(-30px); }
+  .aparece-der { transform: translateX(30px); }
+  .aparece-visible {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+
+  /* Entrada del hero por máscara */
+  .mascara {
+    display: block;
+    overflow: hidden;
+    padding-bottom: 0.08em;
+    margin-bottom: -0.08em;
+  }
+  .linea-entra {
+    display: block;
+    animation: sube 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+
+  .entra {
+    animation: entra 0.85s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+
+  .entra-foto {
+    animation: entra-foto 1.2s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+
+  /* Cintas continuas infinitas con aceleración por hardware GPU */
+  .desfile {
+    display: flex;
+    width: max-content;
+    will-change: transform;
+    transform: translate3d(0, 0, 0);
+  }
+  .desfile-texto { animation: desfile 16s linear infinite; }
+  .desfile-fotos { animation: desfile 20s linear infinite; }
+  .desfile-fichas { animation: desfile 18s linear infinite; }
+
+  /* Cambio de categoría en la carta */
+  .panel-entra {
+    animation: panel-entra 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+  .fila-entra {
+    animation: fila-entra 0.55s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+
+  /* Zoom con micro-rotación en hover de imágenes */
+  .zoom-capa {
+    overflow: hidden;
+  }
+  .zoom-capa img {
+    transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .zoom-capa:hover img,
+  .group:hover .zoom-capa img {
+    transform: scale(1.06);
+  }
+
+  /* Botón flotante de WhatsApp */
+  .fab-entrada {
+    animation:
+      entra 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.6s both,
+      latido 3s cubic-bezier(0.4, 0, 0.6, 1) 2.2s infinite;
+  }
+
+  /* Fondo de sección con parallax */
+  .paralaje-img {
+    position: absolute;
+    inset-inline: 0;
+    top: -10%;
+    height: 120%;
+    width: 100%;
+    object-fit: cover;
+    transform: translate3d(0, 0, 0);
+    will-change: transform;
+  }
+
+  /* Lightbox con <dialog> nativo */
+  .dialogo-foto[open] {
+    animation: dialogo-entra 0.35s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+  .dialogo-foto::backdrop {
+    background: rgba(7, 7, 7, 0.88);
+    backdrop-filter: blur(4px);
+    animation: fundo-entra 0.3s ease-out both;
+  }
+
+  /* Halo de brasa pulsante */
+  .pulso-brasa {
+    animation: pulso-brasa 2.8s ease-in-out infinite;
+  }
+
+  /* Partícula de brasa flotante */
+  .chispa-1 { animation: chispa 4s ease-in-out infinite; }
+  .chispa-2 { animation: chispa 5s ease-in-out 1.2s infinite; }
+  .chispa-3 { animation: chispa 4.5s ease-in-out 2.4s infinite; }
+
+  /* Underline animado para nav y enlaces de sección */
+  .subrayado-fuego {
+    position: relative;
+  }
+  .subrayado-fuego::after {
+    content: '';
+    position: absolute;
+    left: 0; bottom: -2px;
+    height: 2px;
+    width: 0;
+    background: #c2401d;
+    transition: width 0.38s cubic-bezier(0.16, 1, 0.3, 1);
+    border-radius: 2px;
+  }
+  .subrayado-fuego:hover::after { width: 100%; }
+
+  /* Contador numérico de fichas con animación de entrada */
+  .chip-numero {
+    animation: chip-entra 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  }
+
+  /* Texto hero: revelar letra a letra (stagger aplicado via JS inline delay) */
+  .letra-entra {
+    display: inline-block;
+    animation: letra-sube 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+
+  /* Línea decorativa que crece desde cero */
+  .linea-crece {
+    transform-origin: left center;
+    animation: linea-crece 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+
+  /* Badge de sección con rebote de entrada */
+  .badge-rebote {
+    animation: badge-rebote 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  }
+
+  /* Imagen hero con efecto ken-burns muy suave */
+  .ken-burns {
+    animation: ken-burns 22s ease-in-out infinite alternate;
+  }
+
+  /* Efecto scanline sutil para el hero (solo decorativo) */
+  .scanline-overlay::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(0, 0, 0, 0.04) 2px,
+      rgba(0, 0, 0, 0.04) 4px
+    );
+    pointer-events: none;
+  }
+
+  /* Entrada de precio con deslizamiento y fade */
+  .precio-entra {
+    animation: precio-entra 0.55s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+
+  /* Glow de fuego en hover de tarjeta oscura */
+  .glow-fuego {
+    transition: box-shadow 0.35s ease-out;
+  }
+  .glow-fuego:hover {
+    box-shadow: 0 0 0 1px rgba(194, 64, 29, 0.4), 0 20px 48px -12px rgba(194, 64, 29, 0.35);
+  }
+
+  /* Flotar: movimiento vertical continuo muy suave */
+  .flotar { animation: flotar 5s ease-in-out infinite; }
+  .flotar-2 { animation: flotar 6s ease-in-out 1.5s infinite; }
+  .flotar-3 { animation: flotar 7s ease-in-out 3s infinite; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .desfile-fotos,
+    .ken-burns,
+    .flotar, .flotar-2, .flotar-3,
+    .chip-numero, .badge-rebote, .linea-crece {
+      animation: none !important;
+    }
+  }
+}
+
+@keyframes sube {
+  from { transform: translateY(112%); }
+  to { transform: translateY(0); }
+}
+
+@keyframes entra {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes entra-foto {
+  from { opacity: 0; transform: scale(1.06) translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes desfile {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-50%, 0, 0); }
+}
+
+@keyframes panel-entra {
+  from { opacity: 0; transform: translateY(12px) scale(0.99); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes fila-entra {
+  from { opacity: 0; transform: translateX(-14px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes latido {
+  0% { box-shadow: 0 0 0 0 rgba(194, 64, 29, 0.55); }
+  70%, 100% { box-shadow: 0 0 0 18px rgba(194, 64, 29, 0); }
+}
+
+@keyframes dialogo-entra {
+  from { opacity: 0; transform: translateY(16px) scale(0.96); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes fundo-entra {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes pulso-brasa {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.08); filter: drop-shadow(0 0 10px rgba(232, 105, 31, 0.7)); }
+}
+
+@keyframes chispa {
+  0% { transform: translateY(0) scale(0.8); opacity: 0; }
+  30% { opacity: 0.8; }
+  80% { opacity: 0.4; }
+  100% { transform: translateY(-70px) scale(1.2); opacity: 0; }
+}
+
+/* -------- Nuevos keyframes elaborados -------- */
+
+@keyframes chip-entra {
+  from { opacity: 0; transform: scale(0.6) rotate(-6deg); }
+  to   { opacity: 1; transform: scale(1) rotate(0deg); }
+}
+
+@keyframes letra-sube {
+  from { opacity: 0; transform: translateY(60%) skewX(-4deg); }
+  to   { opacity: 1; transform: translateY(0) skewX(0deg); }
+}
+
+@keyframes linea-crece {
+  from { transform: scaleX(0); opacity: 0; }
+  to   { transform: scaleX(1); opacity: 1; }
+}
+
+@keyframes badge-rebote {
+  from { opacity: 0; transform: translateY(-10px) scale(0.88); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes ken-burns {
+  from { transform: scale(1) translate3d(0, 0, 0); }
+  to   { transform: scale(1.08) translate3d(-1.5%, 1%, 0); }
+}
+
+@keyframes precio-entra {
+  from { opacity: 0; transform: translateX(-16px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes flotar {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-10px); }
+}

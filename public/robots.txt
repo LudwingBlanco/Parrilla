@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Dominio definitivo pendiente de confirmación; añadir sitemap.xml entonces
+# Sitemap: https://DOMINIO-DEFINITIVO/sitemap.xml

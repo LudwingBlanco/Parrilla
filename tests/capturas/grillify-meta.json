@@ -1,0 +1,430 @@
+{
+ "heads": [
+  {
+   "tag": "H1",
+   "text": "THE BURGER LAB",
+   "size": "280px",
+   "family": "Six Caps",
+   "weight": "400",
+   "ls": "-2.8px",
+   "lh": "308px"
+  },
+  {
+   "tag": "H2",
+   "text": "BORN TO BE TASTY",
+   "size": "263px",
+   "family": "Six Caps",
+   "weight": "400",
+   "ls": "-5.26px",
+   "lh": "263px"
+  },
+  {
+   "tag": "H2",
+   "text": "OUR SIGNATURE BITES",
+   "size": "263px",
+   "family": "Six Caps",
+   "weight": "400",
+   "ls": "-5.26px",
+   "lh": "263px"
+  },
+  {
+   "tag": "H1",
+   "text": "THE CLASSIC STREET BOSS",
+   "size": "280px",
+   "family": "Six Caps",
+   "weight": "400",
+   "ls": "-2.8px",
+   "lh": "308px"
+  },
+  {
+   "tag": "H1",
+   "text": "THE CLASSIC STREET BOSS",
+   "size": "280px",
+   "family": "Six Caps",
+   "weight": "400",
+   "ls": "-2.8px",
+   "lh": "308px"
+  },
+  {
+   "tag": "H1",
+   "text": "THE CLASSIC STREET BOSS",
+   "size": "280px",
+   "family": "Six Caps",
+   "weight": "400",
+   "ls": "-2.8px",
+   "lh": "308px"
+  },
+  {
+   "tag": "H1",
+   "text": "THE CLASSIC STREET BOSS",
+   "size": "280px",
+   "family": "Six Caps",
+   "weight": "400",
+   "ls": "-2.8px",
+   "lh": "308px"
+  },
+  {
+   "tag": "H3",
+   "text": "THE CLASSIC STREET BOSS",
+   "size": "90px",
+   "family": "Six Caps",
+   "weight": "400",
+   "ls": "normal",
+   "lh": "108px"
+  },
+  {
+   "tag": "H1",
+   "text": "THE SMOKY BBQ ROYALE",
+   "size": "280px",
+   "family": "Six Caps",
+   "weight": "400",
+   "ls": "-2.8px",
+   "lh": "308px"
+  },
+  {
+   "tag": "H1",
+   "text": "THE SMOKY BBQ ROYALE",
+   "size": "280px",
+   "family": "Six Caps",
+   "weight": "400",
+   "ls": "-2.8px",
+   "lh": "308px"
+  },
+  {
+   "tag": "H1",
+   "text": "THE SMOKY BBQ ROYALE",
+   "size": "280px",
+   "family": "Six Caps",
+   "weight": "400",
+   "ls": "-2.8px",
+   "lh": "308px"
+  },
+  {
+   "tag": "H1",
+   "text": "THE SMOKY BBQ ROYALE",
+   "size": "280px",
+   "family": "Six Caps",
+   "weight": "400",
+   "ls": "-2.8px",
+   "lh": "308px"
+  },
+  {
+   "tag": "H3",
+   "text": "THE SMOKY BBQ ROYALE",
+   "size": "90px",
+   "family": "Six Caps",
+   "weight": "400",
+   "ls": "normal",
+   "lh": "108px"
+  },
+  {
+   "tag": "H1",
+   "text": "THE TRUFFLE SHUFFLE",
+   "size": "280px",
+   "family": "Six Caps",
+   "weight": "400",
+   "ls": "-2.8px",
+   "lh": "308px"
+  },
+  {
+   "tag": "H1",
+   "text": "THE TRUFFLE SHUFFLE",
+   "size": "280px",
+   "family": "Six Caps",
+   "weight": "400",
+   "ls": "-2.8px",
+   "lh": "308px"
+  },
+  {
+   "tag": "H1",
+   "text": "THE TRUFFLE SHUFFLE",
+   "size": "280px",
+   "family": "Six Caps",
+   "weight": "400",
+   "ls": "-2.8px",
+   "lh": "308px"
+  },
+  {
+   "tag": "H1",
+   "text": "THE TRUFFLE SHUFFLE",
+   "size": "280px",
+   "family": "Six Caps",
+   "weight": "400",
+   "ls": "-2.8px",
+   "lh": "308px"
+  },
+  {
+   "tag": "H3",
+   "text": "THE TRUFFLE SHUFFLE",
+   "size": "90px",
+   "family": "Six Caps",
+   "weight": "400",
+   "ls": "normal",
+   "lh": "108px"
+  },
+  {
+   "tag": "H1",
+   "text": "THE SPICY HEATWAVE",
+   "size": "280px",
+   "family": "Six Caps",
+   "weight": "400",
+   "ls": "-2.8px",
+   "lh": "308px"
+  },
+  {
+   "tag": "H1",
+   "text": "THE SPICY HEATWAVE",
+   "size": "280px",
+   "family": "Six Caps",
+   "weight": "400",
+   "ls": "-2.8px",
+   "lh": "308px"
+  },
+  {
+   "tag": "H1",
+   "text": "THE SPICY HEATWAVE",
+   "size": "280px",
+   "family": "Six Caps",
+   "weight": "400",
+   "ls": "-2.8px",
+   "lh": "308px"
+  },
+  {
+   "tag": "H1",
+   "text": "THE SPICY HEATWAVE",
+   "size": "280px",
+   "family": "Six Caps",
+   "weight": "400",
+   "ls": "-2.8px",
+   "lh": "308px"
+  },
+  {
+   "tag": "H3",
+   "text": "THE SPICY HEATWAVE",
+   "size": "90px",
+   "family": "Six Caps",
+   "weight": "400",
+   "ls": "normal",
+   "lh": "108px"
+  },
+  {
+   "tag": "H2",
+   "text": "OUR SPEAKEASY",
+   "size": "263px",
+   "family": "Six Caps",
+   "weight": "400",
+   "ls": "-5.26px",
+   "lh": "263px"
+  },
+  {
+   "tag": "H2",
+   "text": "THE BREWERY",
+   "size": "263px",
+   "family": "Six Caps",
+   "weight": "400",
+   "ls": "-5.26px",
+   "lh": "263px"
+  },
+  {
+   "tag": "H2",
+   "text": "BOOK YOUR TABLE",
+   "size": "263px",
+   "family": "Six Caps",
+   "weight": "400",
+   "ls": "-5.26px",
+   "lh": "263px"
+  },
+  {
+   "tag": "H2",
+   "text": "GET IN TOUCH",
+   "size": "206px",
+   "family": "Six Caps",
+   "weight": "400",
+   "ls": "normal",
+   "lh": "247.2px"
+  }
+ ],
+ "body": {
+  "background-color": "rgb(250, 235, 215)",
+  "color": "rgb(0, 0, 0)",
+  "font-family": "sans-serif"
+ },
+ "links": [
+  " -> ./",
+  "ABOUT US -> ./about-us",
+  "CHEF SELECTION -> ./#selection",
+  "OUR MENU -> ./drink-list",
+  "BREWERY -> ./#brewery",
+  "BOOK A TABLE -> null",
+  "EXPLORE OUR BURGERS -> ./#about",
+  "READ OUR STORY -> ./about-us"
+ ],
+ "imgs": [
+  {
+   "src": "cofcomygsfAPVH6NMpwyAYXhYE.svg",
+   "w": 55,
+   "h": 50
+  },
+  {
+   "src": "sU5Zo8BhGADYSOPH52ZO6O34ow.webp?width=1870&height=2804",
+   "w": 1440,
+   "h": 900
+  },
+  {
+   "src": "RdWzUKT7LDCNzU6skmvn7z4FZc4.webp?scale-down-to=1024&width=14",
+   "w": 280,
+   "h": 372
+  },
+  {
+   "src": "sU5Zo8BhGADYSOPH52ZO6O34ow.webp?width=1870&height=2804",
+   "w": 280,
+   "h": 372
+  },
+  {
+   "src": "dILC88HtgXnWgaFirLKZM2iDnLI.webp?scale-down-to=1024&width=11",
+   "w": 280,
+   "h": 372
+  },
+  {
+   "src": "OIfqBnYLmchdw0Eq2ZhViMuETMA.webp?scale-down-to=1024&width=13",
+   "w": 280,
+   "h": 372
+  },
+  {
+   "src": "aB7XwJjGmqVhrNUTcZeSxXaeqg.webp?scale-down-to=512&width=4000",
+   "w": 280,
+   "h": 372
+  },
+  {
+   "src": "GzVURWCzBJYbsX2WVVCR5RMMR4.webp?scale-down-to=1024&width=127",
+   "w": 280,
+   "h": 372
+  },
+  {
+   "src": "RdWzUKT7LDCNzU6skmvn7z4FZc4.webp?scale-down-to=1024&width=14",
+   "w": 280,
+   "h": 372
+  },
+  {
+   "src": "sU5Zo8BhGADYSOPH52ZO6O34ow.webp?width=1870&height=2804",
+   "w": 280,
+   "h": 372
+  },
+  {
+   "src": "dILC88HtgXnWgaFirLKZM2iDnLI.webp?scale-down-to=1024&width=11",
+   "w": 280,
+   "h": 372
+  },
+  {
+   "src": "OIfqBnYLmchdw0Eq2ZhViMuETMA.webp?scale-down-to=1024&width=13",
+   "w": 280,
+   "h": 372
+  },
+  {
+   "src": "aB7XwJjGmqVhrNUTcZeSxXaeqg.webp?scale-down-to=512&width=4000",
+   "w": 280,
+   "h": 372
+  },
+  {
+   "src": "GzVURWCzBJYbsX2WVVCR5RMMR4.webp?scale-down-to=1024&width=127",
+   "w": 280,
+   "h": 372
+  }
+ ],
+ "botones": [
+  {
+   "t": "ABOUT US",
+   "href": "./about-us"
+  },
+  {
+   "t": "CHEF SELECTION",
+   "href": "./#selection"
+  },
+  {
+   "t": "OUR MENU",
+   "href": "./drink-list"
+  },
+  {
+   "t": "BREWERY",
+   "href": "./#brewery"
+  },
+  {
+   "t": "BOOK A TABLE",
+   "href": ""
+  },
+  {
+   "t": "EXPLORE OUR BURGERS",
+   "href": "./#about"
+  },
+  {
+   "t": "READ OUR STORY",
+   "href": "./about-us"
+  },
+  {
+   "t": "BOOK NOW",
+   "href": "./#booking"
+  },
+  {
+   "t": "BOOK NOW",
+   "href": "./#booking"
+  },
+  {
+   "t": "BOOK NOW",
+   "href": "./#booking"
+  },
+  {
+   "t": "BOOK NOW",
+   "href": "./#booking"
+  },
+  {
+   "t": "CHECK THE DRINK LIST",
+   "href": "./drink-list"
+  },
+  {
+   "t": "MAKE THE RESERVATION",
+   "href": ""
+  },
+  {
+   "t": "123 MAIN STREET, SPRINGFIELD, ",
+   "href": "https://www.google.it/maps/"
+  },
+  {
+   "t": "+(555) 123 4567",
+   "href": "tel:+5551234567"
+  },
+  {
+   "t": "INFO@BURGERLAND.COM",
+   "href": "mailto:info@burgerland.com"
+  },
+  {
+   "t": "INSTAGRAM",
+   "href": "https://www.instagram.com"
+  },
+  {
+   "t": "FACEBOOK",
+   "href": "https://www.facebook.com"
+  },
+  {
+   "t": "PINTEREST",
+   "href": "https://www.pinterest.com"
+  },
+  {
+   "t": "MADE WITH LOVE BY UMBERTO CASE",
+   "href": "https://x.com/CaseUmberto"
+  }
+ ],
+ "colores": [
+  "rgb(235, 234, 230)",
+  "rgb(250, 235, 215)",
+  "rgb(23, 23, 23)",
+  "rgb(33, 33, 33)",
+  "rgb(34, 34, 34)",
+  "rgb(13, 13, 13)",
+  "rgb(0, 153, 255)",
+  "rgb(0, 0, 0)",
+  "rgb(197, 149, 148)",
+  "rgb(157, 170, 170)",
+  "rgb(72, 61, 59)",
+  "rgb(255, 255, 255)"
+ ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "casa-del-sabor",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview",
+    "images": "node scripts/images.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/archivo": "5.2.8",
+    "@fontsource/archivo-black": "5.2.8",
+    "@fontsource/bebas-neue": "^5.3.0",
+    "@fontsource/plus-jakarta-sans": "^5.3.0",
+    "@fontsource/six-caps": "5.2.5",
+    "@fontsource/syne": "^5.3.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.27",
+    "@types/react-dom": "18.3.7",
+    "@vitejs/plugin-react": "^6.1.2",
+    "autoprefixer": "10.4.21",
+    "postcss": "^8.5.32",
+    "tailwindcss": "3.4.1",
+    "typescript": "5.6.3",
+    "vite": "^8.3.5"
+  }
+}
