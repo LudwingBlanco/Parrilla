@@ -15,7 +15,7 @@ interface Ficha {
 // Precios reales: rango inferior según la carta oficial (Queresto, octubre 2026)
 const fichas: Ficha[] = [
   {
-    foto: '/img/esp-burger.jpg',
+    foto: './img/esp-burger.jpg',
     alt: 'Hamburguesa al carbón con carne jugosa, queso cheddar y lechuga fresca',
     titulo: 'Hamburguesas al carbón',
     detalle: '22 formas de comer al carbón',
@@ -25,7 +25,7 @@ const fichas: Ficha[] = [
     oscura: true,
   },
   {
-    foto: '/img/esp-parrilla.jpg',
+    foto: './img/esp-parrilla.jpg',
     alt: 'Cortes a la parrilla con marcado de brasa y salsas de la casa',
     titulo: 'La parrilla',
     detalle: 'Chatas, chuletón y costillas BBQ',
@@ -35,7 +35,7 @@ const fichas: Ficha[] = [
     oscura: false,
   },
   {
-    foto: '/img/esp-perro.jpg',
+    foto: './img/esp-perro.jpg',
     alt: 'Perro caliente de la casa con queso fundido, carne desmechada y tocineta',
     titulo: 'Perros y gyros',
     detalle: 'Con queso chitagá en los gyros',
@@ -45,7 +45,7 @@ const fichas: Ficha[] = [
     oscura: true,
   },
   {
-    foto: '/img/esp-almuerzo.jpg',
+    foto: './img/esp-almuerzo.jpg',
     alt: 'Costillas de cerdo BBQ con papas y ensaladita servidas en tabla de madera',
     titulo: 'Platos y almuerzos',
     detalle: 'Costillas BBQ y el menú del día',

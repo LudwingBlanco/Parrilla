@@ -16,24 +16,24 @@ import { IconoWhatsApp } from './Iconos'
  */
 const FOTOS: Record<string, { src: string; alt: string; etiqueta?: { t: string; sub: string } }> = {
   hamburguesas: {
-    src: '/img/hero-burger.jpg',
+    src: './img/hero-burger.jpg',
     alt: 'Hamburguesa XL al carbón de la casa con doble carne, pollo desmechado y tocineta',
     etiqueta: { t: 'La XL', sub: '$ 38.900 · con todo y papas' },
   },
   perros: {
-    src: '/img/esp-perro.jpg',
+    src: './img/esp-perro.jpg',
     alt: 'Perro dog de la casa con queso fundido, carne desmechada y tocineta',
   },
   almuerzos: {
-    src: '/img/esp-almuerzo.jpg',
+    src: './img/esp-almuerzo.jpg',
     alt: 'Costillas de cerdo BBQ servidas en tabla de madera con papas y ensaladita',
   },
   parrilla: {
-    src: '/img/esp-parrilla.jpg',
+    src: './img/esp-parrilla.jpg',
     alt: 'Cortes a la parrilla con marcado de brasa',
   },
   domingos: {
-    src: '/img/casa-mesa.jpg',
+    src: './img/casa-mesa.jpg',
     alt: 'Mesas largas de domingo en el salón con bandejas de la casa',
   },
 }

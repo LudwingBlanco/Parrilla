@@ -4,16 +4,16 @@ import DialogoFoto from './DialogoFoto'
 
 // Fotografías del material oficial de la casa (hub y video). Todas reales.
 const fotos = [
-  { src: '/img/hero-burger.jpg', alt: 'Hamburguesa XL al carbón con doble carne, pollo desmechado y tocineta', ancho: 'aspect-[3/4]' },
-  { src: '/img/esp-parrilla.jpg', alt: 'Cortes a la parrilla con marcado de brasa y salsas de la casa', ancho: 'aspect-[4/3]' },
-  { src: '/img/esp-perro.jpg', alt: 'Perro caliente de la casa con queso fundido y carne desmechada', ancho: 'aspect-[3/4]' },
-  { src: '/img/gal-libres.jpg', alt: 'Libres crocantes con pollo frito de la casa', ancho: 'aspect-square' },
-  { src: '/img/casa-servida.jpg', alt: 'Bandeja del carbón servida sobre papel cuadriculado con salsas de la casa', ancho: 'aspect-[3/4]' },
-  { src: '/img/esp-almuerzo.jpg', alt: 'Costillas de cerdo BBQ con papas y ensaladita servidas en tabla de madera', ancho: 'aspect-[4/3]' },
-  { src: '/img/casa-mesa.jpg', alt: 'Bandejas de la casa con hamburguesas, papas a la francesa y salsas en mesa', ancho: 'aspect-[3/2]' },
-  { src: '/img/gal-croquetas.jpg', alt: 'Croquetas de yuca con carne y camarones gratinadas', ancho: 'aspect-square' },
-  { src: '/img/dest-burger.jpg', alt: 'Hamburguesas al carbón con lechuga, tomate, aros de cebolla y capas de queso', ancho: 'aspect-[3/4]' },
-  { src: '/img/casa-grill.jpg', alt: 'Parrilla en mesa de celebración con papas y bebidas', ancho: 'aspect-[3/4]' },
+  { src: './img/hero-burger.jpg', alt: 'Hamburguesa XL al carbón con doble carne, pollo desmechado y tocineta', ancho: 'aspect-[3/4]' },
+  { src: './img/esp-parrilla.jpg', alt: 'Cortes a la parrilla con marcado de brasa y salsas de la casa', ancho: 'aspect-[4/3]' },
+  { src: './img/esp-perro.jpg', alt: 'Perro caliente de la casa con queso fundido y carne desmechada', ancho: 'aspect-[3/4]' },
+  { src: './img/gal-libres.jpg', alt: 'Libres crocantes con pollo frito de la casa', ancho: 'aspect-square' },
+  { src: './img/casa-servida.jpg', alt: 'Bandeja del carbón servida sobre papel cuadriculado con salsas de la casa', ancho: 'aspect-[3/4]' },
+  { src: './img/esp-almuerzo.jpg', alt: 'Costillas de cerdo BBQ con papas y ensaladita servidas en tabla de madera', ancho: 'aspect-[4/3]' },
+  { src: './img/casa-mesa.jpg', alt: 'Bandejas de la casa con hamburguesas, papas a la francesa y salsas en mesa', ancho: 'aspect-[3/2]' },
+  { src: './img/gal-croquetas.jpg', alt: 'Croquetas de yuca con carne y camarones gratinadas', ancho: 'aspect-square' },
+  { src: './img/dest-burger.jpg', alt: 'Hamburguesas al carbón con lechuga, tomate, aros de cebolla y capas de queso', ancho: 'aspect-[3/4]' },
+  { src: './img/casa-grill.jpg', alt: 'Parrilla en mesa de celebración con papas y bebidas', ancho: 'aspect-[3/4]' },
 ]
 
 // Palabras del propio negocio (artefacto "letras" de su material oficial)
