@@ -12,7 +12,7 @@ export default function Salon() {
       <div className="relative flex min-h-[72vh] items-end overflow-hidden bg-carbon">
         <img
           ref={fondo}
-          src="/img/salon-fondo.jpg"
+          src="./img/salon-fondo.jpg"
           alt=""
           aria-hidden="true"
           loading="lazy"

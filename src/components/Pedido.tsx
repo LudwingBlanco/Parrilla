@@ -11,7 +11,7 @@ export default function Pedido() {
       <div className="relative flex min-h-[75vh] items-center overflow-hidden bg-carbon">
         <img
           ref={fondo}
-          src="/img/pedido-fondo.jpg"
+          src="./img/pedido-fondo.jpg"
           alt=""
           aria-hidden="true"
           loading="lazy"

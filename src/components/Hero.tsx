@@ -37,7 +37,7 @@ export default function Hero() {
       <div className="absolute inset-0 scanline-overlay">
         <img
           ref={fondo}
-          src="/img/hero-fondo.jpg"
+          src="./img/hero-fondo.jpg"
           alt=""
           aria-hidden="true"
           className="paralaje-img ken-burns"

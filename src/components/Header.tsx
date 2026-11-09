@@ -45,7 +45,7 @@ export default function Header() {
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6">
         <a href="#inicio" className="group flex items-center gap-3" onClick={() => setAbierto(false)}>
           <img
-            src="/img/logo.png"
+            src="./img/logo.png"
             alt="Logo Casa del Sabor Parrilla"
             width="52"
             height="52"
